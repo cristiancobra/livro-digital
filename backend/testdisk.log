@@ -1,0 +1,295 @@
+
+
+Fri Sep 23 11:21:44 2022
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.19.8-arch1-1 (#1 SMP PREEMPT_DYNAMIC Thu, 08 Sep 2022 18:07:42 +0000) x86_64
+Compiler: GCC 11.2
+ext2fs lib: 1.46.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.3
+/dev/sda: LBA, HPA, LBA48 support
+/dev/sda: size       937703088 sectors
+/dev/sda: user_max   937703088 sectors
+/dev/sda: native_max 937703088 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       976773168 sectors
+/dev/sdb: user_max   976773168 sectors
+/dev/sdb: native_max 976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 480 GB / 447 GiB - CHS 58369 255 63, sector size=512 - KINGSTON SA400S37480G, S/N:50026B77843F93E0, FW:SBFKP1.5
+Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - WDC WD5000AAKX-003CA0, S/N:WD-WCAYUZ270281, FW:15.01H15
+Disk /dev/loop0 - 49 MB / 46 MiB - 96160 sectors (RO), sector size=512
+Disk /dev/loop1 - 49 MB / 46 MiB - 96176 sectors (RO), sector size=512
+Disk /dev/loop2 - 64 MB / 61 MiB - 126808 sectors (RO), sector size=512
+Disk /dev/loop3 - 64 MB / 61 MiB - 126824 sectors (RO), sector size=512
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 480 GB / 447 GiB - KINGSTON SA400S37480G
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=937703087 (expected 937703087)
+hdr_lba_start=2048
+hdr_lba_end=937703054
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P Linux filesys. data         2048  146802687  146800640
+ 2 P Linux filesys. data    146802688  180357119   33554432
+ 3 P Linux filesys. data    180357120  936380415  756023296
+ 4 P EFI System             936380416  937703054    1322639
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=937703087 (expected 937703087)
+hdr_lba_start=2048
+hdr_lba_end=937703054
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P Linux filesys. data         2048  146802687  146800640
+ 2 P Linux filesys. data    146802688  180357119   33554432
+ 3 P Linux filesys. data    180357120  936380415  756023296
+ 4 P EFI System             936380416  937703054    1322639
+
+
+dir_partition inode=2
+ 1 P Linux filesys. data         2048  146802687  146800640
+Directory /
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 .
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 ..
+      11 drwx------     0      0     16384 20-Feb-2022 00:59 lost+found
+ 1572865 drwxr-xr-x     0      0      4096 23-Sep-2022 10:51 var
+ 2752513 drwxr-xr-x     0      0      4096 20-Feb-2022 01:01 dev
+ 3145729 drwxr-xr-x     0      0      4096 20-Feb-2022 01:01 run
+ 2359297 drwxr-xr-x     0      0      4096 23-Sep-2022 11:17 etc
+  524289 drwxrwxrwt     0      0      4096 20-Feb-2022 01:01 tmp
+ 2883585 dr-xr-xr-x     0      0      4096 20-Feb-2022 01:01 sys
+ 3014657 dr-xr-xr-x     0      0      4096 20-Feb-2022 01:01 proc
+ 2490369 drwxr-xr-x     0      0      4096 23-Sep-2022 11:17 usr
+      12 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 bin
+ 3407873 drwxr-xr-x     0      0      4096 15-Sep-2022 10:18 boot
+ 4456449 drwxr-xr-x     0      0      4096  6-Dec-2021 23:41 home
+      13 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 lib
+      14 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 lib64
+ 3538945 drwxr-xr-x     0      0      4096 17-Jul-2022 20:06 mnt
+ 1310721 drwxr-xr-x     0      0      4096 19-Jul-2022 16:15 opt
+  131073 drwxr-x---     0      0      4096 21-Sep-2022 02:17 root
+      15 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 sbin
+ 3276801 drwxr-xr-x     0      0      4096 20-Feb-2022 01:36 srv
+ 1835009 drwxr-xr-x     0      0      4096 20-Feb-2022 01:58 efi
+      16 lrwxrwxrwx     0      0        19 28-Apr-2022 18:52 snap
+  917505 drwxr-xr-x   999      0      4096 21-Jul-2022 11:53 db
+ 4328299 drwxr-xr-x     0      0      4096  6-Sep-2022 10:11 media
+
+dir_partition inode=4456449
+ 1 P Linux filesys. data         2048  146802687  146800640
+Directory /home
+ 4456449 drwxr-xr-x     0      0      4096  6-Dec-2021 23:41 .
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 ..
+Directory /home
+ 4456449 drwxr-xr-x     0      0      4096  6-Dec-2021 23:41 .
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 ..
+Directory /home
+ 4456449 drwxr-xr-x     0      0      4096  6-Dec-2021 23:41 .
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 ..
+Directory /
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 .
+       2 drwxr-xr-x     0      0      4096  5-Sep-2022 22:46 ..
+      11 drwx------     0      0     16384 20-Feb-2022 00:59 lost+found
+ 1572865 drwxr-xr-x     0      0      4096 23-Sep-2022 10:51 var
+ 2752513 drwxr-xr-x     0      0      4096 20-Feb-2022 01:01 dev
+ 3145729 drwxr-xr-x     0      0      4096 20-Feb-2022 01:01 run
+ 2359297 drwxr-xr-x     0      0      4096 23-Sep-2022 11:17 etc
+  524289 drwxrwxrwt     0      0      4096 20-Feb-2022 01:01 tmp
+ 2883585 dr-xr-xr-x     0      0      4096 20-Feb-2022 01:01 sys
+ 3014657 dr-xr-xr-x     0      0      4096 20-Feb-2022 01:01 proc
+ 2490369 drwxr-xr-x     0      0      4096 23-Sep-2022 11:17 usr
+      12 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 bin
+ 3407873 drwxr-xr-x     0      0      4096 15-Sep-2022 10:18 boot
+ 4456449 drwxr-xr-x     0      0      4096  6-Dec-2021 23:41 home
+      13 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 lib
+      14 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 lib64
+ 3538945 drwxr-xr-x     0      0      4096 17-Jul-2022 20:06 mnt
+ 1310721 drwxr-xr-x     0      0      4096 19-Jul-2022 16:15 opt
+  131073 drwxr-x---     0      0      4096 21-Sep-2022 02:17 root
+      15 lrwxrwxrwx     0      0         7  6-Dec-2021 23:41 sbin
+ 3276801 drwxr-xr-x     0      0      4096 20-Feb-2022 01:36 srv
+ 1835009 drwxr-xr-x     0      0      4096 20-Feb-2022 01:58 efi
+      16 lrwxrwxrwx     0      0        19 28-Apr-2022 18:52 snap
+  917505 drwxr-xr-x   999      0      4096 21-Jul-2022 11:53 db
+ 4328299 drwxr-xr-x     0      0      4096  6-Sep-2022 10:11 media
+
+
+dir_partition inode=2
+ 3 P Linux filesys. data    180357120  936380415  756023296
+Directory /
+       2 drwxr-xr-x     0      0      4096 28-Apr-2022 11:42 .
+       2 drwxr-xr-x     0      0      4096 28-Apr-2022 11:42 ..
+      11 drwx------     0      0     16384 20-Feb-2022 02:09 lost+found
+ 3014657 drwx------  1000   1000      4096 23-Sep-2022 10:51 cristiancobra
+ 12320769 drwxr-xr-x     0      0      4096 28-Apr-2022 11:42 www
+
+dir_partition inode=3014657
+ 3 P Linux filesys. data    180357120  936380415  756023296
+Directory /cristiancobra
+ 3014657 drwx------  1000   1000      4096 23-Sep-2022 10:51 .
+       2 drwxr-xr-x     0      0      4096 28-Apr-2022 11:42 ..
+ 3014658 -rw-r--r--  1000   1000        21  8-Jan-2022 15:31 .bash_logout
+ 3014659 -rw-r--r--  1000   1000       173 27-Apr-2022 18:28 .bash_profile
+ 3014660 -rw-r--r--  1000   1000       159 27-Apr-2022 18:27 .bashrc
+ 3014661 drwxr-xr-x  1000   1000      4096 11-May-2022 09:21 Área de trabalho
+ 3014662 drwxr-xr-x  1000   1000     12288 23-Sep-2022 10:39 Downloads
+ 4068426 drwxr-xr-x  1000   1000      4096  9-Sep-2022 15:03 docker
+ 3014664 drwxr-xr-x  1000   1000      4096 20-Feb-2022 03:39 Público
+ 3014665 drwxr-xr-x  1000   1000      4096 16-Sep-2022 11:03 Documentos
+ 5117045 drwxr-xr-x  1000   1000      4096 21-Jul-2022 17:28 .docker
+ 3014667 drwxr-xr-x  1000   1000      4096 21-Sep-2022 17:31 Imagens
+ 4199007 drwxr-xr-x  1000   1000      4096  6-Aug-2022 20:01 .mono
+ 3014669 drwx------  1000   1000      4096 23-Sep-2022 11:07 .config
+ 3014672 drwxr-xr-x  1000   1000      4096 20-Feb-2022 03:39 .local
+ 3016587 -rw-------  1000   1000       112 23-Sep-2022 10:51 .Xauthority
+ 3014678 drwxr-xr-x  1000   1000      4096 23-Sep-2022 10:52 .cache
+ 3014707 drwxr-xr-x  1000   1000      4096 20-Feb-2022 03:39 .kde4
+ 3014680 -rw-r--r--  1000   1000       265 23-Sep-2022 10:51 .gtkrc-2.0
+ 3014824 drwx------  1000   1000      4096 20-Feb-2022 03:46 .mozilla
+ 3016594 -rw-------  1000   1000     14091 21-Sep-2022 02:17 .bash_history
+ 3020241 drwx------  1000   1000      4096 20-Feb-2022 10:44 .pki
+ 3147179 drwxr-xr-x  1000   1000      4096 14-Mar-2022 16:52 bkp-www
+ 3019830 drwxr-xr-x  1000   1000      4096 14-Jul-2022 21:40 Jogos
+ 3147148 drwxr-xr-x  1000   1000      4096 26-Jul-2022 17:35 www
+ 3542184 drwxr-xr-x  1000   1000      4096 17-Jul-2022 20:13 programas
+ 3804330 drwx------  1000   1000      4096  2-May-2022 09:24 .gnupg
+ 5247434 drwxr-xr-x  1000   1000      4096 21-Jul-2022 11:41 cobra projetos
+ 3015153 lrwxrwxrwx  1000   1000        38  5-Sep-2022 01:19 .steampath
+ 7603351 drwxr-xr-x  1000   1000      4096 20-Sep-2022 16:15 mei
+ 6949854 drwxr-xr-x  1000   1000      4096 14-Jul-2022 15:13 .netbeans
+ 6950371 drwxr-xr-x  1000   1000      4096 21-Feb-2022 10:43 .java
+ 3804754 drwx------  1000   1000      4096  7-Mar-2022 12:27 .mysql
+ 3035324 -rw-------  1000   1000        20 30-Aug-2022 11:57 .lesshst
+ 5379164 drwxr-xr-x  1000   1000      4096  5-Sep-2022 10:32 .wine
+ 7349321 drwxr-xr-x  1000   1000      4096 21-Jun-2022 12:46 .npm
+ 3041133 -rw-------  1000   1000       488 12-May-2022 19:48 .mysql_history
+ 7613071 drwx------  1000   1000      4096  4-Jun-2022 21:36 .ssh
+ 3042569 -rw-r--r--  1000   1000        31 25-Mar-2022 16:06 .vuerc
+ 7352066 drwxr-xr-x  1000   1000      4096 25-Mar-2022 16:09 .vscode-oss
+ 5116898 drwxrwxrwx  1000   1000      4096 29-Aug-2022 21:39 media
+ 8520024 drwx------  1000   1000      4096  3-Jun-2022 10:20 .zoom
+ 4197670 drwxr-xr-x  1000   1000      4096  5-Sep-2022 02:00 .steam
+ 3015661 lrwxrwxrwx  1000   1000        36  5-Sep-2022 01:19 .steampid
+ 4070675 drwxr-xr-x  1000   1000      4096 12-Sep-2022 12:57 freelancer
+ 3022334 -rw-------  1000   1000       256 15-Apr-2022 16:48 .pulse-cookie
+ 4197910 drwxr-xr-x  1000   1000      4096 28-Apr-2022 15:45 .cmake
+ 5116922 drwx------  1000   1000      4096 19-Jul-2022 10:54 snap
+ 4197930 drwxr-xr-x  1000   1000      4096  3-May-2022 17:58 .vscode
+ 3036689 -rw-------  1000   1000         0 28-Jul-2022 12:53 .node_repl_history
+ 3026517 -rw-r--r--  1000   1000       110 29-Apr-2022 17:34 .fonts.conf
+ 3049252 -rw-r--r--  1000   1000        65  5-May-2022 17:06 .gitconfig
+ 5116299 drwxr-xr-x  1000   1000      4096  5-Sep-2022 22:48 .minecraft
+ 4069760 drwxr-xr-x  1000   1000      4096  5-Sep-2022 22:35 Windows 11 (Leaked) Dev Build 21996.1 Consumer Edition (x64) Incl. Activator {CracksHash}
+
+dir_partition inode=4068426
+ 3 P Linux filesys. data    180357120  936380415  756023296
+Directory /cristiancobra/docker
+ 4068426 drwxr-xr-x  1000   1000      4096  9-Sep-2022 15:03 .
+ 3014657 drwx------  1000   1000      4096 23-Sep-2022 10:51 ..
+ 4068551 drwxr-xr-x  1000   1000      4096  5-Sep-2022 19:42 projetos
+ 4068432 -rw-r--r--  1000   1000      1378 18-Aug-2022 11:29 docker AJUDA.txt
+ 4068507 drwxr-xr-x  1000   1000      4096 19-Sep-2022 16:31 clinimap
+ 8654891 drwxr-xr-x  1000   1000      4096  3-Aug-2022 22:11 myday
+ 6824885 drwxr-xr-x  1000   1000      4096  4-Jun-2022 18:48 chegueidoutor
+ 4069795 drwxr-xr-x  1000   1000      4096 18-Aug-2022 17:47 teste
+ 14293202 drwxr-xr-x  1000   1000      4096 26-Aug-2022 10:41 backups
+ 4068502 -rw-r--r--  1000   1000      1175 10-Aug-2022 17:54 README.md
+ 11801358 drwxr-xr-x  1000   1000      4096 18-Aug-2022 11:20 inicie-api
+ 5251643 drwxr-xr-x  1000   1000      4096 28-Aug-2022 11:25 dudow
+ 4067439 -rw-r--r--  1000   1000      1620  5-Sep-2022 19:23 documentacao.txt
+ 4069268 drwxr-xr-x  1000   1000      4096  8-Sep-2022 15:06 testes-variados
+ 4201743 drwxr-xr-x  1000   1000      4096 16-Sep-2022 00:11 livro digital
+
+dir_partition inode=4201743
+ 3 P Linux filesys. data    180357120  936380415  756023296
+Directory /cristiancobra/docker/livro digital
+ 4201743 drwxr-xr-x  1000   1000      4096 16-Sep-2022 00:11 .
+ 4068426 drwxr-xr-x  1000   1000      4096  9-Sep-2022 15:03 ..
+ 4202096 drwxr-xr-x  1000   1000      4096 25-Jul-2022 10:41 frontend
+ 4202104 drwxr-xr-x  1000   1000      4096 23-Sep-2022 11:19 backend
+ 4202105 drwxr-xr-x   999   1000      4096 23-Sep-2022 10:52 database
+ 4202122 -rw-r--r--  1000   1000       728  9-Sep-2022 16:01 Dockerfile
+ 4201811 -rw-r--r--  1000   1000     12058 15-Sep-2022 10:46 arquitetura.ods
+ 4202124 -rw-r--r--  1000   1000       307 24-Jul-2022 19:15 000-default.conf
+ 4202125 -rw-r--r--  1000   1000      1732 10-Sep-2022 12:16 docker-compose.yml
+ 4202126 -rw-r--r--  1000   1000        96 24-Jul-2022 22:06 .env-bkp
+ 3042602 -rw-r--r--  1000   1000     26341 13-Sep-2022 15:04 e669c5c018377997b147036cd9335ffc.jpg
+
+dir_partition inode=4202104
+ 3 P Linux filesys. data    180357120  936380415  756023296
+Directory /cristiancobra/docker/livro digital/backend
+ 4202104 drwxr-xr-x  1000   1000      4096 23-Sep-2022 11:19 .
+ 4201743 drwxr-xr-x  1000   1000      4096 16-Sep-2022 00:11 ..
+ 4202111 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 .git
+ 4202112 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 lang
+ 4202113 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 resources
+ 4202114 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 config
+ 4202115 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 routes
+ 4202116 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 nbproject
+ 4202117 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 tests
+ 4202118 drwxr-xr-x  1000   1000      4096 24-Jul-2022 17:13 html
+ 4202119 drwxrwxrwx  1000   1000      4096 21-Jul-2022 19:49 storage
+ 4202120 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 bootstrap
+ 4202121 drwxr-xr-x  1000   1000      4096 10-Sep-2022 14:46 public
+ 5117518 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 database
+ 5117520 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 app
+ 5117521 drwxr-xr-x  1000   1000      4096 24-Jul-2022 17:01 vendor
+ 4202134 -rw-r--r--  1000   1000       258 21-Jul-2022 19:49 .editorconfig
+ 4201418 -rw-r--r--     0      0       386 23-Sep-2022 11:21 testdisk.log
+ 4202136 -rw-r--r--  1000   1000       179 21-Jul-2022 19:49 .gitignore
+ 4202137 -rw-r--r--  1000   1000       162 21-Jul-2022 19:49 .styleci.yml
+ 4202144 -rw-r--r--  1000   1000       152 21-Jul-2022 19:49 .gitattributes
+ 4202145 -rw-r--r--  1000   1000       912 21-Jul-2022 19:49 .env.example
+ 4202146 -rw-r--r--  1000   1000      1079 21-Sep-2022 17:23 .env
+ 4202426 drwxr-xr-x  1000   1000     20480 20-Sep-2022 17:34 node_modules
+Directory /cristiancobra/docker/livro digital/backend
+ 4202104 drwxr-xr-x  1000   1000      4096 23-Sep-2022 11:19 .
+ 4201743 drwxr-xr-x  1000   1000      4096 16-Sep-2022 00:11 ..
+ 4202111 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 .git
+ 4202112 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 lang
+ 4202113 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 resources
+ 4202114 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 config
+ 4202115 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 routes
+ 4202116 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 nbproject
+ 4202117 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 tests
+ 4202118 drwxr-xr-x  1000   1000      4096 24-Jul-2022 17:13 html
+ 4202119 drwxrwxrwx  1000   1000      4096 21-Jul-2022 19:49 storage
+ 4202120 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 bootstrap
+ 4202121 drwxr-xr-x  1000   1000      4096 10-Sep-2022 14:46 public
+ 5117518 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 database
+ 5117520 drwxr-xr-x  1000   1000      4096 21-Jul-2022 19:49 app
+ 5117521 drwxr-xr-x  1000   1000      4096 24-Jul-2022 17:01 vendor
+ 4202134 -rw-r--r--  1000   1000       258 21-Jul-2022 19:49 .editorconfig
+ 4201418 -rw-r--r--     0      0       386 23-Sep-2022 11:21 testdisk.log
+ 4202136 -rw-r--r--  1000   1000       179 21-Jul-2022 19:49 .gitignore
+ 4202137 -rw-r--r--  1000   1000       162 21-Jul-2022 19:49 .styleci.yml
+ 4202144 -rw-r--r--  1000   1000       152 21-Jul-2022 19:49 .gitattributes
+ 4202145 -rw-r--r--  1000   1000       912 21-Jul-2022 19:49 .env.example
+ 4202146 -rw-r--r--  1000   1000      1079 21-Sep-2022 17:23 .env
+ 4202426 drwxr-xr-x  1000   1000     20480 20-Sep-2022 17:34 node_modules
+Directory /cristiancobra/docker/livro digital
+ 4201743 drwxr-xr-x  1000   1000      4096 16-Sep-2022 00:11 .
+ 4068426 drwxr-xr-x  1000   1000      4096  9-Sep-2022 15:03 ..
+ 4202096 drwxr-xr-x  1000   1000      4096 25-Jul-2022 10:41 frontend
+ 4202104 drwxr-xr-x  1000   1000      4096 23-Sep-2022 11:19 backend
+ 4202105 drwxr-xr-x   999   1000      4096 23-Sep-2022 10:52 database
+ 4202122 -rw-r--r--  1000   1000       728  9-Sep-2022 16:01 Dockerfile
+ 4201811 -rw-r--r--  1000   1000     12058 15-Sep-2022 10:46 arquitetura.ods
+ 4202124 -rw-r--r--  1000   1000       307 24-Jul-2022 19:15 000-default.conf
+ 4202125 -rw-r--r--  1000   1000      1732 10-Sep-2022 12:16 docker-compose.yml
+ 4202126 -rw-r--r--  1000   1000        96 24-Jul-2022 22:06 .env-bkp
+ 3042602 -rw-r--r--  1000   1000     26341 13-Sep-2022 15:04 e669c5c018377997b147036cd9335ffc.jpg
+SIGINT detected! TestDisk has been killed.
